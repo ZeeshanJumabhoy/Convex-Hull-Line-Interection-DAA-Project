@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="js/two.js"></script>
+        <script type="text/javascript" src="js/algorithms.js"></script>
+        <script type="text/javascript" src="js/graph.js"></script>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body style="background-color: rgb(192, 192, 192);">
+
+        <header>
+            <center>
+
+            <h1>ALGORITHM VISUALIZATION</h1>
+            </center>
+        </header>
+        
+
+
+        <table>
+            <tr>
+                <td>
+                    <div id="canvas"/>
+                </td>
+            </tr>
+            <tr>
+                <td class="center">
+                    Enter number of vertices:
+                    <input type="number" id="num_vertices" name="vertices" min="1" max="1000">
+                    <button id="add_vertices" name="add_vertices" onclick="createVertices()"> Create </button>
+                </td>
+            </tr>
+            <tr>
+                <td class="center">
+                    Algorithm:
+                    <select id="algorithm">
+                        <option value="gift_wrap">Gift Wrapping</option>
+                        <option value="graham_scan">Graham Scan</option>
+                        <option value="quick_hull">Quick Hull</option>
+                    </select>
+                    <button id="execute" name="execute" onclick="execute()"> Execute </button>
+                    <button id="pause" name="pause" onclick="pause()" disabled="true">❚❚</button>
+                </td>
+            </tr>
+            <tr>
+                <td class="center">
+                    Execution Speed:
+                    <div id="slidecontainer">
+                        <input type="range" min="1" max="100" value="12" class="slider" id="speed">
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
