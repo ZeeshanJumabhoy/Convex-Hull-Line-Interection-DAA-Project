@@ -35,8 +35,6 @@ o Hertel-Mehlhorn
 We have implemented all these Algorithms in Java as well as a few in JavaScript to show it more user-friendly Interface
 Also, we have to submit the report made on LaTex.
 
-<img width="415" alt="dash" src="https://github.com/ZeeshanJumabhoy/Convex-Hull-Line-Interection-DAA-Project/assets/104393686/8b52c1ef-c256-4f7a-988b-07985bbc943c")
-
 <img width="268" alt="1" src="https://github.com/ZeeshanJumabhoy/Convex-Hull-Line-Interection-DAA-Project/assets/104393686/15fb54f4-97a4-4e46-b201-fe0715023683">
 
 <img width="359" alt="2" src="https://github.com/ZeeshanJumabhoy/Convex-Hull-Line-Interection-DAA-Project/assets/104393686/1fe616c5-2474-43a4-8f80-e8e6de58d558">
